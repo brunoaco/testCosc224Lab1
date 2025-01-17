@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -20,8 +21,9 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 320px;
         }
-        h2 {
+        h1, h2 {
             text-align: center;
         }
         label {
@@ -46,6 +48,12 @@
         }
         input[type="submit"]:hover {
             background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
         }
     </style>
 </head>
@@ -74,6 +82,9 @@
 
             <input type="submit" value="Register">
         </form>
+        <footer>
+            &copy; 2025 RVK SpA. All rights reserved.
+        </footer>
     </div>
 </body>
 </html>
